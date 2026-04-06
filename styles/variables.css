@@ -2,29 +2,20 @@
 в исходном состоянии, а так же их изменения 
 в зависимости от ширины устройства */
 :root {
-    --main-font: InterVariable;
-    --accent-font: PressStart2P;
-    --main-font-title-wght: 715;
-    --main-font-text-wght: 400;
-    --page-background:
-    repeating-linear-gradient(
-      to right,
-      #d3d3d3 0 2px,
-      transparent 2px 4px
-    ),
-    repeating-linear-gradient(
-      to bottom,
-      #d3d3d3 0 2px,
-      transparent 2px 4px
-    ),
-    linear-gradient(
-      to bottom,
-      #e7e7e7 0%,
-      #e7e7e7 0.01%,
-      #1a1a1a 100%
-    );
-    --inline-size: clamp(375px, calc(375px + (100vw - 375px) * 325 / 1065), 700px);
-    --block-size: clamp(327px, 40vw, 368px);
---stroke-color: #fff;
-
+  --main-font: InterVariable;
+  --accent-font: PressStart2P;
+  --main-font-title-wght: 715;
+  --main-font-text-wght: 400;
+  --page-background:
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  --inline-size: clamp(
+    375px,
+    calc(375px + (100vw - 375px) * 325 / 1065),
+    700px
+  );
+  --block-size: clamp(327px, 40vw, 368px);
+  --stroke-color: #fff;
+  --accent-color: black;
 }
