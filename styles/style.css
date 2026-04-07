@@ -134,9 +134,9 @@
   border: 2px solid black;
   background-color: white;
   transition: box-shadow 0.3s ease;
+  cursor: pointer;
   inline-size: 130px;
   block-size: 38px;
-  cursor: pointer;
 }
 
 .button__text {
@@ -154,6 +154,7 @@
 .footer {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .footer__button {
