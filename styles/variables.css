@@ -18,4 +18,6 @@
   --block-size: clamp(327px, 40vw, 368px);
   --stroke-color: #fff;
   --accent-color: black;
+  --animation-contour-fill-color: black;
+  --animation-sparks-fill-color: #FF0000;
 }
