@@ -129,10 +129,6 @@
   background-color: white;
 }
 
-.like-icon {
-  display: block;
-}
-
 .card__like-button {
   position: relative;
   border: 2px solid black;
